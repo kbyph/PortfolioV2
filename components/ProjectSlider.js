@@ -90,7 +90,7 @@ const ProjectSlider = () => {
                       
                     {/*Overlay Gradient*/}
                     <a  href={image.link} target="_blank">
-                    <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'>
+                    <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#49BDA6] to-[#006551] opacity-0 group-hover:opacity-60 transition-all duration-700'>
                     </div>
                     </a>
                     {/*Title*/}
