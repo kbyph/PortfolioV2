@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div className='bg-primary h-full py-36 flex items-center'>
         <div className='container mx-auto'>
-        <div className='container mx-auto flex flex-col items-center xl:flex-row gap-x-8'>
+        <div className='flex flex-col items-center xl:flex-row gap-x-8'>
             {/*Text*/}
             <div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0'>
               
