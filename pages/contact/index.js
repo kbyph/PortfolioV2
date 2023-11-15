@@ -48,7 +48,7 @@ const Contact = () => {
             exit='hidden' 
             className='h2 text-center mb-8'
           >
-            Let's <span className='text-accent'>connect.</span>
+            {`Let's`} <span className='text-accent'>connect.</span>
           </motion.h2>
           <motion.h3 
             className='text-center mb-12'
@@ -57,7 +57,7 @@ const Contact = () => {
             animate='show' 
             exit='hidden'           
           >
-            If you're eager to collaborate and bring ideas to life, let's connect and have a conversation! I'm all ears and ready to explore how we can work together effectively.
+            {` If you're eager to collaborate and bring ideas to life, let's connect and have a conversation! I'm all ears and ready to explore how we can work together effectively. `}
           </motion.h3>
 
           {/*Form*/}
