@@ -55,9 +55,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-fade'; 
 
 //Import Required Modules
-import { Pagination } from 'swiper';
+import { Pagination, EffectFade } from 'swiper';
 
 //Icons 
 import { BsArrowRight } from 'react-icons/bs';
@@ -68,6 +69,7 @@ import Image from 'next/image';
 const ProjectSlider = () => {
   return ( 
     <Swiper
+      effect={"fade"}
       spaceBetween={10}
       pagination={{ clickable: true }}
       modules={[Pagination]}
@@ -75,7 +77,7 @@ const ProjectSlider = () => {
     >
       {projectSlides.slides.map((slide, index) => {
         return (
-          <SwiperSlide key={index} className='overflow-hidden'>
+          <SwiperSlide key={index}>
             <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer '>
               {slide.images.map((image, index) => {
                 return (
