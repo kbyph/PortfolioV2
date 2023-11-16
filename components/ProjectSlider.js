@@ -87,6 +87,7 @@ const ProjectSlider = () => {
                       width={500} 
                       height={300} 
                       alt=''
+                      exit='hidden'
                     />
                       
                     {/*Overlay Gradient*/}
