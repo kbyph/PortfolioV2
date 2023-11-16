@@ -1,3 +1,6 @@
+//Header
+import Head from 'next/head'
+
 //Fonts
 import {Sora} from '@next/font/google'
 
@@ -15,6 +18,11 @@ import Header from '../components/Header'
 const Layout = ({ children }) => {
   return (
   <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
+    <Head>
+      <title>Kobe Pho | Frontend Developer</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
+    
     <Nav />
     <Header />
     {children}
