@@ -44,7 +44,7 @@ const Projects = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='w-full xl:max-w-[65%] overflow-hidden'
+            className='w-full xl:max-w-[65%]'
             >
               <ProjectSlider />
             </motion.div>
