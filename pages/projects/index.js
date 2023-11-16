@@ -1,7 +1,7 @@
 //Components
 import ProjectSlider from '../../components/ProjectSlider';
 
-//Framer Motion
+//Framer Motion 
 import { motion } from 'framer-motion';
 
 //Variants
