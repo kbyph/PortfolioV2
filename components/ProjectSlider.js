@@ -71,12 +71,12 @@ const ProjectSlider = () => {
       spaceBetween={10}
       pagination={{ clickable: true }}
       modules={[Pagination]}
-      className='h-[280px] sm:h-[480px] overflow-hidden bottom-0'
+      className='overflow-hidden h-[280px] sm:h-[480px]'
     >
       {projectSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
+            <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer overflow-hidden'>
               {slide.images.map((image, index) => {
                 return (
                   <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={index}>
