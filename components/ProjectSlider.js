@@ -55,10 +55,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import 'swiper/css/effect-fade'; 
+
 
 //Import Required Modules
-import { Pagination, EffectFade } from 'swiper';
+import { Pagination } from 'swiper';
 
 //Icons 
 import { BsArrowRight } from 'react-icons/bs';
@@ -69,11 +69,10 @@ import Image from 'next/image';
 const ProjectSlider = () => {
   return ( 
     <Swiper
-      effect={"fade"}
       spaceBetween={10}
       pagination={{ clickable: true }}
       modules={[Pagination]}
-      className='overflow-hidden h-[280px] sm:h-[480px]'
+      className='overflow-hidden h-[200px] sm:h-[480px]'
     >
       {projectSlides.slides.map((slide, index) => {
         return (
