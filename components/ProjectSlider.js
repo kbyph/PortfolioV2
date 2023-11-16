@@ -86,7 +86,8 @@ const ProjectSlider = () => {
                       src={image.path} 
                       width={500} 
                       height={300} 
-                      alt='' />
+                      alt=''
+                      className='overflow-hidden' />
                       
                     {/*Overlay Gradient*/}
                     <a  href={image.link} target="_blank">
