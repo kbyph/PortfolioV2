@@ -40,11 +40,11 @@ const Projects = () => {
             
             {/*Slider*/}
             <motion.div 
-            variants={fadeIn('up', 0.6)}
+            variants={fadeIn('down', 0.6)}
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='w-full xl:max-w-[65%]'
+            className='w-full xl:max-w-[65%] h-full'
             >
               <ProjectSlider />
             </motion.div>
