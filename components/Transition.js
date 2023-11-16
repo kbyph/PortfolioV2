@@ -1,6 +1,7 @@
 //Framer Motion
 import {motion} from 'framer-motion'
 
+
 //Variants
 const transitionVariants = {
   initial: {
