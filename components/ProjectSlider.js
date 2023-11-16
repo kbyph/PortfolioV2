@@ -76,7 +76,7 @@ const ProjectSlider = () => {
       {projectSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
+            <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer overflow-hidden'>
               {slide.images.map((image, index) => {
                 return (
                   <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={index}>
@@ -87,7 +87,6 @@ const ProjectSlider = () => {
                       width={500} 
                       height={300} 
                       alt=''
-                      exit='hidden'
                     />
                       
                     {/*Overlay Gradient*/}
