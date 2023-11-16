@@ -46,12 +46,12 @@ const Contact = () => {
             initial='hidden' 
             animate='show' 
             exit='hidden' 
-            className='h2 text-center mb-8'
+            className='h2 text-center xl:mb-8 mb-4 mt-14 xl:mt-0'
           >
             {`Let's`} <span className='text-accent'>connect.</span>
           </motion.h2>
           <motion.h3 
-            className='text-center mb-12'
+            className='text-center xl:mb-12 mb-6'
             variants={fadeIn('up', 0.3)} 
             initial='hidden' 
             animate='show' 
