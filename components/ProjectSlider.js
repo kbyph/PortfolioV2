@@ -25,26 +25,26 @@ export const projectSlides = {
         },
       ],
     },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/comingsoon.jpg',
-        },
-        {
-          title: 'title',
-          path: '/comingsoon.jpg',
-        },
-        {
-          title: 'title',
-          path: '/comingsoon.jpg',
-        },
-        {
-          title: 'title',
-          path: '/comingsoon.jpg',
-        },
-      ],
-    },
+    // {
+    //   images: [
+    //     {
+    //       title: 'title',
+    //       path: '/comingsoon.jpg',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/comingsoon.jpg',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/comingsoon.jpg',
+    //     },
+    //     {
+    //       title: 'title',
+    //       path: '/comingsoon.jpg',
+    //     },
+    //   ],
+    // },
   ],
 };
 
