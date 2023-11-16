@@ -40,7 +40,7 @@ const Projects = () => {
             
             {/*Slider*/}
             <motion.div 
-            variants={fadeIn('down', 0.6)}
+            variants={fadeIn('up', 0.6)}
             initial='hidden'
             animate='show'
             exit='hidden'
