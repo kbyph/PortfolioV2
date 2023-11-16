@@ -87,7 +87,7 @@ const ProjectSlider = () => {
                       width={500} 
                       height={300} 
                       alt=''
-                      className='transition-all' />
+                    />
                       
                     {/*Overlay Gradient*/}
                     <a  href={image.link} target="_blank">
