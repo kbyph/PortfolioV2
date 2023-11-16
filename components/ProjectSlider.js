@@ -71,7 +71,7 @@ const ProjectSlider = () => {
       spaceBetween={10}
       pagination={{ clickable: true }}
       modules={[Pagination]}
-      className='h-[280px] sm:h-[480px] overflow-hidden'
+      className='h-[280px] sm:h-[480px] overflow-hidden bottom-0'
     >
       {projectSlides.slides.map((slide, index) => {
         return (
