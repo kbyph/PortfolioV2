@@ -10,6 +10,9 @@ export const fadeIn = (direction, delay) => {
         delay: delay,
         ease: [0.25, 0.6, 0.3, 0.8],
       },
+      fadeEffect: { 
+        crossFade: true 
+      },
     },
     show: {
       y: 0,
