@@ -139,7 +139,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='h2'
+            className='h2 xl:mt-0 mt-12'
           >
             About <span className='text-accent'>Me</span>
           </motion.h2>
@@ -149,7 +149,7 @@ const About = () => {
               initial='hidden'
               animate='show'
               exit='hidden'
-              className='max-w-[500px] mx-auto xl:mx-0 mb-4 xl:mb-12 px-2 xl:px-0 text-[13px]'
+              className='max-w-[500px] mx-auto xl:mx-0 mb-4 xl:mb-12 px-2 xl:px-0 text-[12px] xl:text-[15px]'
             >
             Welcome to my portfolio! My name is Kobe Pho and I am a self-taught front end web developer with 2 years of experience and a background in Economics. Through my education and hands-on experience, I have developed a strong skill set in HTML, CSS, Javascript and React.
             </motion.p>
@@ -159,7 +159,7 @@ const About = () => {
               initial='hidden'
               animate='show'
               exit='hidden'
-              className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-[13px]'
+              className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-[12px] xl:text-[15px]'
             >
             Driven by creative challenges, I am dedicated to delivering user-friendly web designs through attention to detail, problem-solving, and innovative thinking. With a growth mindset, I continually seek opportunities to learn and stay updated on coding trends, bringing passion, skills, and dedication to every project. 
             
