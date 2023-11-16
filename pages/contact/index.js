@@ -48,7 +48,7 @@ const Contact = () => {
             exit='hidden' 
             className='h2 text-center xl:mb-2 mb-4 mt-14 xl:mt-32'
           >
-            {`Let's`} <span className='text-accent'>connect.</span>
+            {`Let's connect`} <span className='text-accent'>!</span>
           </motion.h2>
           <motion.h3 
             className='text-center xl:mb-4 mb-6'

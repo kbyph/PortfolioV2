@@ -23,7 +23,7 @@ const Projects = () => {
                 exit='hidden'
                 className='h2 xl:mt-12'  
               >
-                My Projects <span className='text-accent'>.</span>
+                My Projects<span className='text-accent'>.</span>
               </motion.h2>
 
               <motion.p 
