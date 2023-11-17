@@ -139,7 +139,7 @@ const About = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='h2 xl:mt-16 mt-4'
+            className='h2 xl:mt-16 mt-2'
           >
             About Me<span className='text-accent'>.</span>
           </motion.h2>
