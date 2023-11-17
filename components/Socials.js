@@ -2,7 +2,7 @@
 import Link from 'next/link';
 
 //Icons
-import {FaGithub, FaLinkedin, FaFileContract, FaEnvelope } from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaFileContract } from 'react-icons/fa';
 
 
 const Socials = () => {
@@ -19,10 +19,6 @@ const Socials = () => {
 
     <Link href={"/KobePhoResume.pdf"} target="_blank" className='hover:text-accent transition-all duration-300'>
       <FaFileContract />
-    </Link>
-
-    <Link href="{mailto:kobeypho@gmail.com}" target="_blank" className='hover:text-accent transition-all duration-300'>
-      <FaEnvelope />
     </Link>
 
   </div>
