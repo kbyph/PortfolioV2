@@ -9,6 +9,11 @@ export const projectSlides = {
           link: 'https://drivefy.vercel.app/'
         },
         {
+          title: 'Veloura',
+          path: '/veloura.png',
+          link: 'https://veloura.vercel.app/'
+        },
+        {
           title: 'Smart Brain',
           path: '/smartbrain.png',
           link: 'https://smart-brain-react.herokuapp.com/'
@@ -17,11 +22,6 @@ export const projectSlides = {
           title: 'Vibetopia',
           path: '/vibetopia.png',
           link: 'https://kbyph.github.io/Vibetopia/'
-        },
-        {
-          title: 'Robofriends',
-          path: '/robofriends.png',
-          link: 'https://kbyph.github.io/Robofriends/'
         },
       ],
     },
