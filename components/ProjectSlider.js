@@ -4,14 +4,14 @@ export const projectSlides = {
     {
       images: [
         {
-          title: 'Drivefy',
-          path: '/drivefy.jpg',
-          link: 'https://drivefy.vercel.app/'
-        },
-        {
           title: 'Veloura',
           path: '/veloura.png',
           link: 'https://veloura.vercel.app/'
+        },
+        {
+          title: 'Drivefy',
+          path: '/drivefy.jpg',
+          link: 'https://drivefy.vercel.app/'
         },
         {
           title: 'Smart Brain',
