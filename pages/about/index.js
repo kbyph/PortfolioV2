@@ -6,7 +6,6 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaPython,
   FaBootstrap,
   FaAws,
 } from "react-icons/fa";
@@ -15,7 +14,6 @@ import {
 import {
   SiTypescript,
   SiNextdotjs,
-  SiRedux,
   SiNodedotjs,
   SiTailwindcss,
   SiNpm,
@@ -27,6 +25,7 @@ import {
   SiVisualstudiocode,
   SiMongodb,
   SiTableau,
+  SiFigma,
 } from "react-icons/si";
 
 
@@ -36,13 +35,13 @@ const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Languages:',
+        title: 'Programming Languages:',
         icons: [
           <FaJs />,
           <FaHtml5 />,
           <FaCss3 />,
           <SiTypescript />,
-          <FaPython />,
+          <SiNpm />,
         ],
       },
       
@@ -51,27 +50,30 @@ const aboutData = [
         icons: [
           <SiNextdotjs />,
           <FaReact />,
-          <SiRedux />,
           <SiNodedotjs />,
           <SiTailwindcss />,
-          <SiNpm />,
           <FaBootstrap />,
         ],
       },
 
       {
-        title: 'Other:',
+        title: 'Data & Databases:',
         icons: [
           <SiPostgresql />,
+          <SiMongodb />,
+          <FaAws />,
+        ],
+      },
+
+      {
+        title: 'Cloud & Technologies:',
+        icons: [
+          <SiFigma />,
           <SiGit />,
           <SiHeroku />,
           <SiVercel />,
           <SiPostman />,
           <SiVisualstudiocode />,
-          <SiMongodb />,
-          <FaAws />,
-          <SiTableau />,
-
         ],
       },
     ],
