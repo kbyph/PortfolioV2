@@ -24,7 +24,7 @@ Learn more about my background, skills, education, work, and connect with me via
 
 ## Preview
 
-![image](https://github.com/kbyph/PortfolioV2/assets/102638461/b7e39f95-d6f9-42fd-bdb4-255ce1f7a90c)
+![image](https://github.com/kbyph/PortfolioV2/assets/102638461/454ae734-2235-47aa-9e57-dc124fcba197)
 
 ![image](https://github.com/kbyph/PortfolioV2/assets/102638461/ef059862-d8a5-49ad-922e-8bcfa1a15633)
 
