@@ -23,3 +23,14 @@ Learn more about my background, skills, education, work, and connect with me via
   -  Git
 
 ## Preview
+
+![image](https://github.com/kbyph/PortfolioV2/assets/102638461/b7e39f95-d6f9-42fd-bdb4-255ce1f7a90c)
+
+![image](https://github.com/kbyph/PortfolioV2/assets/102638461/ef059862-d8a5-49ad-922e-8bcfa1a15633)
+
+![image](https://github.com/kbyph/PortfolioV2/assets/102638461/031a348d-0266-45d1-add2-be246e1c42dc)
+
+![image](https://github.com/kbyph/PortfolioV2/assets/102638461/0ffe0a9d-1fa9-4909-b366-2803a668ef7a)
+
+
+
