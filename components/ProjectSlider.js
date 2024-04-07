@@ -4,6 +4,11 @@ export const projectSlides = {
     {
       images: [
         {
+          title: 'CloudedAI',
+          path: '/cloudedai.png',
+          link: 'https://cloudedai-ec6718a9a93c.herokuapp.com/'
+        },
+        {
           title: 'Veloura',
           path: '/veloura.png',
           link: 'https://veloura.vercel.app/'
@@ -12,11 +17,6 @@ export const projectSlides = {
           title: 'Drivefy',
           path: '/drivefy.jpg',
           link: 'https://drivefy.vercel.app/'
-        },
-        {
-          title: 'Smart Brain',
-          path: '/smartbrain.png',
-          link: 'https://smart-brain-react.herokuapp.com/'
         },
         {
           title: 'Vibetopia',
