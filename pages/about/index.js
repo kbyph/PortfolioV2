@@ -24,8 +24,8 @@ import {
   SiPostman,
   SiVisualstudiocode,
   SiMongodb,
-  SiTableau,
   SiFigma,
+  SiPrisma,
 } from "react-icons/si";
 
 
@@ -62,6 +62,7 @@ const aboutData = [
           <SiPostgresql />,
           <SiMongodb />,
           <FaAws />,
+          <SiPrisma />
         ],
       },
 
